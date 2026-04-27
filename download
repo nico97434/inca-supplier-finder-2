@@ -1,0 +1,28 @@
+# Streamlit secrets — JAMAIS commiter
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs & cache
+*.log
+.streamlit/cache/
+
+# Exports temporaires
+*.xlsx
+*.csv
+!requirements.txt
